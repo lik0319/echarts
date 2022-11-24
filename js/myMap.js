@@ -1,1 +1,1 @@
-console.log(map);
+console.log(地图);

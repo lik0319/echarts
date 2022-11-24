@@ -1,4 +1,123 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* 修改默认样式 */
+h4,
+h3,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 布局整体 .viewport */
+
+.viewport {
+    min-width: 1024px;
+    max-width: 1920px;
+    min-height: 10rem;
+    margin: 0 auto;
+    padding: 0.875rem 0.25rem 0;
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+.viewport>.column {
+    margin-top: 0.5rem;
+    flex: 3;
+    background-color: rgb(241, 210, 210);
+}
+
+.viewport>.column:nth-of-type(2) {
+    flex: 4;
+    background-color: rgb(184, 217, 247);
+    margin: .9rem 0.1875rem 0;
+}
+
+/* 公共样式  图片边框 */
+.panel {
+    border: 1px solid transparent;
+    border-image-source: url(../images/border.png);
+    border-width: 0.6375rem 0.475rem 0.25rem 1.65rem;
+    border-image-slice: 51 38 20 132;
+    margin-bottom: 0.25rem;
+    position: relative;
+    padding: 0.35rem 0.35rem;
+}
+
+.inner {
+    position: absolute;
+    top: -0.6375rem;
+    right: -0.475rem;
+    bottom: -0.25rem;
+    left: -1.65rem;
+    padding: 0.225rem 0.325rem;
+}
+
+.panel h3 {
+    font-size: 0.225rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* 概览区域 */
+.overview {
+    height: 1.25rem;
+    box-sizing: border-box;
+}
+
+.overview ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview h4 {
+    font-size: 0.45rem;
+    color: white;
+    /* margin: 0 0 0.06rem 8px; */
+}
+
+.overview ul li {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.overview ul li span {
+    font-size: 0.2rem;
+    color: #4c9bfd;
+}
+
+.line {
+    display: inline-block;
+    border-radius: 5px;
+    width: 4px;
+    height: 10px;
+    background-color: #2d6af6;
+    margin-right: 2px;
+}
+
+.line2 {
+    background-color: #83caa6 !important;
+}
+
+.line4 {
+    background-color: #db4e3f;
 }
