@@ -374,3 +374,276 @@ a {
 .users .data .item:nth-of-type(2) {
     margin-top: 0.25rem;
 }
+
+
+/* 第三列 */
+/* 订单 */
+.order {
+    height: 0.4rem;
+}
+
+.order .filter {
+    display: flex;
+}
+
+.order .filter a {
+    display: block;
+    height: 0.3rem;
+    line-height: 1;
+    padding: 0 0.3rem;
+    color: #1950c4;
+    font-size: 0.25rem;
+    border-right: 0.025rem solid #00f2f1;
+}
+
+.order .filter a:first-child {
+    padding-left: 0;
+}
+
+.order .filter a:last-child {
+    border-right: none;
+}
+
+.order .filter a.active {
+    color: #fff;
+    font-size: 0.3rem;
+}
+
+.order .data {
+    display: flex;
+    margin-top: 0.225rem;
+}
+
+.order .item {
+    width: 50%;
+}
+
+.order h4 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 0.15rem;
+}
+
+.order span {
+    display: block;
+    color: #4c9bfd;
+    font-size: 0.25rem;
+}
+
+.orderDataHidden {
+    display: none !important;
+}
+
+
+/* 销售区域 */
+.sales {
+    height: 1.6rem;
+}
+
+.sales .caption {
+    display: flex;
+    line-height: 1;
+}
+
+.sales h3 {
+    font-size: 0.3rem;
+    height: 0.3rem;
+    padding-right: 0.225rem;
+    border-right: 0.035rem solid #00f2f1;
+}
+
+.sales a {
+    padding: 0.05rem;
+    font-size: 0.25rem;
+    margin: -0.05rem 0 0 0.3rem;
+    border-radius: 0.0375rem;
+    color: #0bace6;
+}
+
+.sales a.active {
+    background-color: #4c9bfd;
+    color: #fff;
+}
+
+.sales .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.sales .chart {
+    /* background-color: pink; */
+    flex: 1;
+    padding-top: 0.125rem;
+    position: relative;
+}
+
+.sales .label {
+    position: absolute;
+    left: 0.525rem;
+    top: 0.225rem;
+    color: #4996f5;
+    font-size: 0.25rem;
+}
+
+.sales .sline {
+    width: 100%;
+    height: 90%;
+    /* background-color: rgb(240, 172, 172); */
+}
+
+
+/* 渠道 季度区块 */
+.wrap {
+    display: flex;
+}
+
+.channel {
+    flex: 5;
+    height: 1.2rem;
+}
+
+.quarter {
+    flex: 1;
+    height: 1.2rem;
+}
+
+.channel {
+    margin-right: 0.15rem;
+}
+
+.inner h3 {
+    font-size: 0.3rem;
+}
+
+.channel .data {
+    overflow: hidden;
+}
+
+.channel .data .radar {
+    height: 2rem;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.channel h4 {
+    color: #fff;
+    font-size: 0.4rem;
+    margin-bottom: 0.0625rem;
+}
+
+.channel small {
+    font-size: 50%;
+}
+
+.channel span {
+    display: block;
+    color: #4c9bfd;
+    font-size: 0.175rem;
+}
+
+/* 季度区块 */
+.quarter .inner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 -0.075rem;
+}
+
+.quarter .chart {
+    flex: 1;
+    /* padding-top: 0.225rem; */
+}
+
+.quarter .box {
+    position: relative;
+}
+
+.quarter .label {
+    transform: translate(-50%, -30%);
+    color: #fff;
+    font-size: 0.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.quarter .label small {
+    font-size: 50%;
+}
+
+.quarter .gauge {
+    height: 1.05rem;
+}
+
+.quarter .data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quarter .item {
+    width: 50%;
+}
+
+.quarter h4 {
+    color: #fff;
+    font-size: 0.4rem;
+    margin-top: -0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.quarter span {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #4cfde2;
+    font-size: 0.25rem;
+}
+
+
+/* 进度模块 */
+
+.plan {
+    height: 1.5rem;
+}
+
+/* 点位分布下面整体 */
+.plan .chart {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(250, 212, 212); */
+    margin-top: 0;
+}
+
+.plan .water {
+    width: 3.9rem;
+    height: 1.8rem;
+    /* background-color: rgb(92, 6, 6, 0.5); */
+    margin-right: 0.125rem;
+}
+
+.plan .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.9rem;
+    padding: 0.2rem 0.3rem;
+    box-sizing: border-box;
+    background-image: url(../images/rect.png);
+    background-size: cover;
+}
+
+.plan h4 {
+    font-size: 0.3rem;
+    color: #fff;
+}
+
+.plan span {
+    display: block;
+    color: #f8ab05;
+    font-size: 0.23rem;
+}
+
+.plan .data .item:nth-of-type(2) {
+    margin-top: 0.25rem;
+}
